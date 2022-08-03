@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<link href="~/Content/home_picture.css" rel="stylesheet" />
+<link href="~/Content/home_button.css" rel="stylesheet" />
+<br />
+<br />
+<div class="text-center">
+    Choose a service
+</div>
+<br />
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/Resources/医疗机构.png" width="200" height="200" />
+        <button>
+            @Html.ActionLink("Pharmacies", "Book", "Home")
+            
+        </button>
+    </div>
+    <div class="col-md-4">
+        <img src="~/Resources/医生.png" width="200" height="200" />
+        <button>
+            General Practitioner
+        </button>
+    </div>
+    <div class="col-md-4">
+        <img src="~/Resources/Heart.png" width="200" height="200" />
+        <button>
+            Mental Health
+        </button>
+    </div>
+    <br />
+    <div class="col-md-4">
+        <img src="~/Resources/营养科.png" width="200" height="200" />
+        <button>
+            Nutrition
+        </button>
+    </div>
+    <div class="col-md-4">
+        <img src="~/Resources/口腔科.png" width="200" height="200" />
+        <button>
+            Dental
+        </button>
+    </div>
+    <div class="col-md-4">
+        <img src="~/Resources/医疗_.png" width="200" height="200" />
+        <button>
+            Physiotherapy
+        </button>
+    </div>
+
+</div>
+
+
